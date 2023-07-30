@@ -1,0 +1,44 @@
+{
+    "git.autofetch": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "cmake.configureOnOpen": true,
+    "python.languageServer": "Pylance",
+    "python.linting.flake8Args": [
+        "--max-line-length 120",
+        "--ignore F811,F841,E203,E402,E501,E712,W503"
+    ],
+    "python.autoComplete.extraPaths": [],
+    "python.formatting.provider": "black",
+    "python.analysis.extraPaths": [],
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.inlineSuggest.enabled": true,
+    "C_Cpp.clang_format_style": "Google",
+    "clang-format.executable": "/usr/bin/clang-format",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.formatting": "clangFormat",
+    "clang-format.language.c.style": "Google",
+    "clang-format.language.cpp.style": "Google",
+    "clang-format.language.c.fallbackStyle": "Google",
+    "clang-format.style": "Google",
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "window.zoomLevel": 2,
+    "editor.inlineSuggest.showToolbar": "always",
+    "clang-format.fallbackStyle": "Google",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    },
+    "workbench.editorAssociations": {
+        "*.xls": "default"
+    }
+}
