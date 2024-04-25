@@ -248,13 +248,6 @@
         "key": "ctrl+left",
         "command": "cursorWordLeft",
         "when": "textInputFocus"
-    },  {
-        "key": "ctrl+b left",
-        "command": "workbench.action.focusLeftGroup"
-    },
-    {
-        "key": "ctrl+b right",
-        "command": "workbench.action.focusRightGroup"
     },
     {
         "key": "alt+left",
@@ -330,11 +323,19 @@
         "command": "-workbench.action.closeEditorsInGroup"
     },
     {
+        "key": "ctrl+b left",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
         "key": "cmd+k cmd+left",
         "command": "-workbench.action.focusLeftGroup"
     },
     {
         "key": "cmd+k cmd+right",
+        "command": "-workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+b right",
         "command": "-workbench.action.focusRightGroup"
     },
     {
@@ -454,15 +455,11 @@
         "command": "-workbench.action.moveEditorRightInGroup"
     },
     {
-        "key": "f6",
-        "command": "-workbench.action.focusNextPart"
-    },
-    {
         "key": "alt+cmd+left",
         "command": "workbench.action.previousEditor"
     },
     {
         "key": "alt+cmd+right",
-        "command": "workbench.action.nextEditor"
+        "command": "workbench.action.nextEditor",
     }
 ]
