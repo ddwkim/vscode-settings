@@ -1,9 +1,12 @@
 {
-    "git.autofetch": true,
-    "[cpp]": {
-        "editor.defaultFormatter": "xaver.clang-format"
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.colorTheme": "Default High Contrast",
+    "workbench.editorAssociations": {
+        "*.xls": "default"
     },
-    "cmake.configureOnOpen": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.formatOnSave": true,
     "python.languageServer": "Pylance",
     "python.linting.flake8Args": [
         "--max-line-length 120",
@@ -12,33 +15,52 @@
     "python.autoComplete.extraPaths": [],
     "python.formatting.provider": "black",
     "python.analysis.extraPaths": [],
-    "editor.formatOnSave": true,
+    "black-formatter.importStrategy": "fromEnvironment",
+    "black-formatter.args": [
+        "--line-length",
+        "80"
+    ],
     "[python]": {
-        "editor.formatOnType": true
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
     },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.inlineSuggest.enabled": true,
+    "cmake.configureOnOpen": true,
     "C_Cpp.clang_format_style": "Google",
-    "clang-format.executable": "/usr/bin/clang-format",
     "C_Cpp.default.cStandard": "c17",
     "C_Cpp.formatting": "clangFormat",
+    "clang-format.executable": "/usr/bin/clang-format",
+    "clang-format.language.cuda.enable": true,
+    "clang-format.language.cuda.style": "Google",
+    "clang-format.language.cuda.fallbackStyle": "LLVM",
+    "clang-format.language.c.enable": true,
     "clang-format.language.c.style": "Google",
+    "clang-format.language.c.fallbackStyle": "LLVM",
+    "clang-format.language.cpp.enable": true,
     "clang-format.language.cpp.style": "Google",
-    "clang-format.language.c.fallbackStyle": "Google",
+    "clang-format.language.cpp.fallbackStyle": "LLVM",
     "clang-format.style": "Google",
+    "clang-format.fallbackStyle": "LLVM",
     "[c]": {
-        "editor.defaultFormatter": "xaver.clang-format"
+        "editor.defaultFormatter": "xaver.clang-format",
+        "editor.formatOnSave": true
     },
-    "window.zoomLevel": 2,
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format",
+        "editor.formatOnSave": true
+    },
+    "[cuda-cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format",
+        "editor.formatOnSave": true
+    },
     "editor.inlineSuggest.showToolbar": "always",
-    "clang-format.fallbackStyle": "Google",
+    "git.autofetch": true,
     "github.copilot.enable": {
         "*": true,
         "plaintext": true,
         "markdown": false,
         "scminput": false
     },
-    "workbench.editorAssociations": {
-        "*.xls": "default"
-    }
+    "github.copilot.advanced": {
+        "authProvider": "github"
+    },
 }
