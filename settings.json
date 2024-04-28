@@ -7,6 +7,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.inlineSuggest.enabled": true,
     "editor.formatOnSave": true,
+    "editor.inlineSuggest.showToolbar": "always",
     "python.languageServer": "Pylance",
     "python.linting.flake8Args": [
         "--max-line-length 120",
@@ -52,7 +53,6 @@
         "editor.defaultFormatter": "xaver.clang-format",
         "editor.formatOnSave": true
     },
-    "editor.inlineSuggest.showToolbar": "always",
     "git.autofetch": true,
     "github.copilot.enable": {
         "*": true,
